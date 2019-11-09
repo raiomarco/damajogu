@@ -1,8 +1,8 @@
-#teste = "teste1"
-#se teste == "teste":
-#    mostrar("Funciona")
-#senão:
-#    mostrar("k k j")
+teste = "teste"
+se teste == "teste":
+    mostrar("enquanto se tomate cru mano, ta 10/10")
+senão:
+    mostrar("k k j")
 
 contador = 0
 enquanto contador <= 10:

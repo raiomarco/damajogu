@@ -1,7 +1,7 @@
 dict = {
 "print": "mostrar",
-"if ": "se ",
-"elif ": "senão se ",
+"if": "se",
+"elif": "senão se",
 "else": "senão",
-"while ": "enquanto "
+"while": "enquanto"
 }
