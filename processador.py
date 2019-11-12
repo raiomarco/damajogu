@@ -10,7 +10,7 @@ def corretor(dict):
 
 def processar(entrada):
 
-    from dict import dictpt
+    from dicts.pt import dict
     dict = corretor(dictpt)
 
     processamento1 = entrada.split('"')
