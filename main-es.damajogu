@@ -1,0 +1,11 @@
+#!dict=es
+teste = "teste"
+si teste == "teste":
+    presumir("mientras si tomate cru mano, ta 10/10")
+sino:
+    presumir("jajaja")
+
+contador = 0
+mientras contador <= 10:
+    presumir(contador)
+    contador = contador+1

@@ -10,8 +10,10 @@ def corretor(dict):
 
 def processar(entrada):
 
-    from dicts.pt import dict
-    dict = corretor(dictpt)
+    import importlib
+    language = entrada.split("\n")[0].replace("#!dict=","")
+    dict = importlib.import_module('dicts.language'.replace("language",language)).dict
+    dict = corretor(dict)
 
     processamento1 = entrada.split('"')
     processado = []

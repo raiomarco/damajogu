@@ -1,3 +1,4 @@
+#!dict=pt
 teste = "teste"
 se teste == "teste":
     mostrar("enquanto se tomate cru mano, ta 10/10")
