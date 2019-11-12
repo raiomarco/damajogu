@@ -22,7 +22,7 @@ def main():
         entrada,exemplificar = leitor.ler()
         error = False
     except:
-        print("Nenhum arquivo foi validado")
+        print("Nenhum arquivo foi validado.")
         error = True
     if not error:
         if exemplificar:
