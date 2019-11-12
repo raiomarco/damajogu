@@ -10,8 +10,8 @@ def corretor(dict):
 
 def processar(entrada):
 
-    from dict import dict
-    dict = corretor(dict)
+    from dict import dictpt
+    dict = corretor(dictpt)
 
     processamento1 = entrada.split('"')
     processado = []
