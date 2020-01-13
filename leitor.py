@@ -8,4 +8,4 @@ def ler():
         exemplificar = True
     else:
         exemplificar = False
-    return entrada,exemplificar
+    return entrada, exemplificar

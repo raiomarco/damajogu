@@ -15,11 +15,11 @@ def processar(entrada):
     dict = importlib.import_module('dicts.language'.replace("language",language)).dict
     dict = corretor(dict)
 
-    processamento1 = entrada.split('"')
+    processamentoEntrada = entrada.split('"')
     processado = []
     bagulho = True
 
-    for i in processamento1:
+    for i in processamentoEntrada:
 
         if bagulho:
             andamento = i

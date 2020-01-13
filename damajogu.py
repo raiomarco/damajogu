@@ -6,6 +6,7 @@ def damajogu(entrada):
     processado = processador.processar(entrada)
     exec(processado)
 
+
 def exemplificador(entrada):
     print("ENTRADA\nVVVVVVV\n")
     print(entrada)
@@ -17,12 +18,13 @@ def exemplificador(entrada):
     exec(processado)
     print("\n^^^^^")
 
+
 def main():
     try:
-        entrada,exemplificar = leitor.ler()
+        entrada, exemplificar = leitor.ler()
         error = False
     except:
-        print("Nenhum arquivo foi validado")
+        print("Nenhum arquivo foi validado.")
         error = True
     if not error:
         if exemplificar:
