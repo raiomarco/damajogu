@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def corretor(dict):
     dict = {
     "print": dict["print"],
@@ -9,7 +10,6 @@ def corretor(dict):
     return dict
 
 def processar(entrada):
-
     import importlib
     language = entrada.split("\n")[0].replace("#!dict=","")
     dict = importlib.import_module('dicts.language'.replace("language",language)).dict
@@ -17,19 +17,18 @@ def processar(entrada):
 
     processamentoEntrada = entrada.split('"')
     processado = []
-    bagulho = True
+    verificador = True
 
     for i in processamentoEntrada:
-
-        if bagulho:
+        if verificador:
             andamento = i
             for j in dict:
                 andamento = andamento.replace(dict[j],j)
             processado.append(andamento)
-            bagulho = False
-        elif not bagulho:
+            verificador = False
+        elif not verificador:
             processado.append(i)
-            bagulho = True
+            verificador = True
 
     processado = '"'.join(processado)
     return processado
