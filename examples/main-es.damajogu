@@ -1,9 +1,9 @@
 #!dict=es
 teste = "teste"
 si teste == "teste":
-    presumir("mientras si tomate cru mano, ta 10/10")
+    presumir("prueba aprobada.")
 sino:
-    presumir("jajaja")
+    presumir("la prueba no pasó.")
 
 contador = 0
 mientras contador <= 10:

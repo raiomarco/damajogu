@@ -1,9 +1,9 @@
 #!dict=pt
 teste = "teste"
 se teste == "teste":
-    mostrar("enquanto se tomate cru mano, ta 10/10")
+    mostrar("teste passou.")
 senão:
-    mostrar("k k j")
+    mostrar("teste não passou.")
 
 contador = 0
 enquanto contador <= 10:
